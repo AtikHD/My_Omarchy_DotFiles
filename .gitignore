@@ -1,0 +1,33 @@
+# Secrets
+.env
+*.env
+*.secret
+credentials*
+secrets*
+
+# Caches
+.cache/
+cache/
+Cache/
+
+# Browser/application state
+.config/google-chrome/
+.config/google-chrome-beta/
+.config/google-chrome-unstable/
+.config/microsoft-edge/
+.config/microsoft-edge-dev/
+.config/mozilla/
+.config/BraveSoftware/
+
+# Runtime state
+.config/pulse/
+.config/dconf/
+.config/systemd/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.swp
+*~
