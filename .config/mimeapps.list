@@ -1,0 +1,28 @@
+[Default Applications]
+text/html=userapp-Nightly-ST9NU3.desktop
+x-scheme-handler/http=userapp-Nightly-ST9NU3.desktop
+x-scheme-handler/https=userapp-Nightly-ST9NU3.desktop
+x-scheme-handler/about=chromium.desktop
+x-scheme-handler/unknown=chromium.desktop
+x-scheme-handler/mailto=HEY.desktop
+x-scheme-handler/chrome=userapp-Nightly-ST9NU3.desktop
+application/x-extension-htm=userapp-Nightly-ST9NU3.desktop
+application/x-extension-html=userapp-Nightly-ST9NU3.desktop
+application/x-extension-shtml=userapp-Nightly-ST9NU3.desktop
+application/xhtml+xml=userapp-Nightly-ST9NU3.desktop
+application/x-extension-xhtml=userapp-Nightly-ST9NU3.desktop
+application/x-extension-xht=userapp-Nightly-ST9NU3.desktop
+x-scheme-handler/slack=slack.desktop
+
+[Added Associations]
+x-scheme-handler/http=userapp-Nightly-ST9NU3.desktop;
+x-scheme-handler/https=userapp-Nightly-ST9NU3.desktop;
+x-scheme-handler/chrome=userapp-Nightly-ST9NU3.desktop;
+text/html=userapp-Nightly-ST9NU3.desktop;
+application/x-extension-htm=userapp-Nightly-ST9NU3.desktop;
+application/x-extension-html=userapp-Nightly-ST9NU3.desktop;
+application/x-extension-shtml=userapp-Nightly-ST9NU3.desktop;
+application/xhtml+xml=userapp-Nightly-ST9NU3.desktop;
+application/x-extension-xhtml=userapp-Nightly-ST9NU3.desktop;
+application/x-extension-xht=userapp-Nightly-ST9NU3.desktop;
+x-scheme-handler/slack=slack.desktop;

@@ -1,2 +1,4 @@
+python-imageio-ffmpeg
+python-screeninfo
 slack-desktop
 waypaper

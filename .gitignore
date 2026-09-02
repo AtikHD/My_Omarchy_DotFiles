@@ -1,33 +1,41 @@
-# Secrets
+# Secrets / credentials
 .env
-*.env
+.env.*
 *.secret
+*.key
 credentials*
 secrets*
 
-# Caches
-.cache/
-cache/
-Cache/
+# Runtime / cache / logs
+**/cache/
+**/Cache/
+**/*.log
+**/.cache/
+
+# Omarchy generated/state files
+.config/omarchy/backgrounds/
+.config/omarchy/shell.json
+.config/omarchy/shell.json.bak.*
 
 # Browser/application state
+.config/BraveSoftware/
+.config/chromium/
 .config/google-chrome/
 .config/google-chrome-beta/
 .config/google-chrome-unstable/
 .config/microsoft-edge/
 .config/microsoft-edge-dev/
 .config/mozilla/
-.config/BraveSoftware/
+.config/Slack/
+.config/spotify/
+.config/obsidian/
 
-# Runtime state
-.config/pulse/
+# Editor/application generated state
+.config/zed/
+.config/opencode/
+
+# OS/user-specific state
 .config/dconf/
-.config/systemd/
-
-# Logs
-*.log
-
-# Temporary files
-*.tmp
-*.swp
-*~
+.config/pulse/
+.config/procps/
+.config/fcitx5/conf/cached_layouts
